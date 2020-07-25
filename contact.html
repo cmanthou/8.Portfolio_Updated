@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+   
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
+    <title>Cory J. Manthou</title>
+  </head>
+  
+  <body>
+
+    <!-- Background CSS -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <!-- Background CSS END -->
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand" href="index.html">Cory Manthou</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="navbar-collapse collapse w-100 order-3 dual-collapse2">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">About <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="portfolio.html">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!-- Navbar END -->
+
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <h1>Contact:</h1>
+        </div>
+      </div>
+    </div>
+
+    <!-- Contact Form -->
+<div class="container">
+<section class="mb-4">
+  <p class="text-center w-responsive mx-auto mb-5">Any questions or comments on this page or the projects it contains?  Please fill out the below form to send them directly to Cory.</p>
+  <div class="row">
+      <div class="col-md-9 mb-md-0 mb-5">
+          <form id="contact-form" name="contact-form" action="mail.php" method="POST">
+              <div class="row">
+                  <div class="col-md-6">
+                      <div class="md-form mb-0">
+                          <input type="text" id="name" name="name" class="form-control" placeholder="John Smith">
+                          <label for="name" class="">Your Name</label>
+                      </div>
+                  </div>
+                  <div class="col-md-6">
+                      <div class="md-form mb-0">
+                          <input type="text" id="email" name="email" class="form-control" placeholder="name@example.com">
+                          <label for="email" class="">Your Email</label>
+                      </div>
+                  </div>
+              </div>
+              <div class="row">
+                  <div class="col-md-12">
+                      <div class="md-form mb-0">
+                          <input type="text" id="subject" name="subject" class="form-control" placeholder="Let's Network!">
+                          <label for="subject" class="">Subject</label>
+                      </div>
+                  </div>
+              </div>
+              <div class="row">
+                  <div class="col-md-12">
+                      <div class="md-form">
+                          <textarea type="text" id="message" name="message" rows="3" class="form-control md-textarea" placeholder="Message"></textarea>
+                          <label for="message">Your Message</label>
+                      </div>
+
+                  </div>
+              </div>
+          </form>
+          <div class="text-center text-md-center">
+              <a class="btn btn-light" onclick="document.getElementById('contact-form').submit();">Send</a>
+          </div>
+          <div class="status"></div>
+      </div>
+       <div class="col-md-3 text-center">
+         <section id="contact-info">
+          <ul class="list-unstyled mb-0">
+              <li><i class="fas fa-map-marker-alt fa-2x"></i>
+                  <p>313 Creek Drive, Radnor, PA, USA</p>
+              </li>
+
+              <li><i class="fas fa-phone mt-4 fa-2x"></i>
+                  <p>(646) 276-0029</p>
+              </li>
+
+              <li><i class="fas fa-envelope mt-4 fa-2x"></i>
+                  <p>cory.manthou@gmail.com</p>
+              </li>
+
+              <li> <a class="btn btn-light" target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/coryjmanthou" role="button">LinkedIn Profile</a>
+              </li>
+          </ul>
+        </section>
+      </div>
+  </div>
+</div>  
+</section>
+<!-- Contact Form END-->
+
+  </body>
+
+      <!-- Footer-->
+      <div class="container">
+        <footer class="card-footer text-muted">
+          <p class="text-sm-center font-italic">Cory J. Manthou - 2020</p>
+        </footer>
+        </div>
+      <!-- Footer END-->
+
+</html>

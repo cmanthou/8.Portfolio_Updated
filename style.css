@@ -1,0 +1,21 @@
+/* Background Image */
+body {
+  background-image: url('Assets/Blurred-Background-Sunset-3c-Free.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+/* Font Change */
+
+* {
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+/* Vertical Center Contact Info */
+#contact-info {
+    margin: 0;
+    position: absolute;
+    top: 40%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
